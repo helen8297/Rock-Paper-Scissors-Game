@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="RPS.css" />
+  </head>
+
+  <body>
+    <h1>Rock, Paper, Scissors</h1>
+
+      <div>
+    <label>What is your name?<input type="text" id="inputiD"></label>
+    <button id="usernameButton">Set Username</button>
+  
+    </div>
+    
+    </br>
+    <p id="username-display" class="para">Unnamed</p>
+
+    <img
+      src="https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png"
+    />
+
+    </br>
+
+    <button id="RockButton">Rock</button>
+    <button id="PaperButton">Paper</button>
+    <button id="ScissorsButton">Scissors</button>
+
+    <p class="para">Computer move: <span id="computerMove"></span></p>
+    <p class="para">Who won?: <span id="results"></span></p>
+    <p class="para">Player score: <span id="playerscore"></span></p>
+    <p class="para">Computer score: <span id="computerscore"></span></p>
+    
+
+    <section id="gameHistory">
+      <p>Game moves:</p>
+      <ul id="history">
+        Game History
+      </ul>
+    </section>
+
+    <img id="channingtatum" src="https://media3.giphy.com/media/3o6EQsErpewOmld09G/giphy.gif" />
+
+    <script src="RPS.js"></script>
+  </body>
+</html>
