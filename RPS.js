@@ -1,3 +1,22 @@
+//button created for dark mode
+//when user presses the button the css link href is changed from light mode to dark mode
+//use get element by id to get the button click
+//when the button is clicked trigger function to turn on lightmode
+
+var lightModeClick = document.getElementById("lightmode");
+lightModeClick.addEventListener("click", turnOnLightMode);
+
+function turnOnLightMode() {
+  document.getElementById("css").href = "RPSLightMode.css";
+}
+
+var darkModeClick = document.getElementById("darkmode");
+darkModeClick.addEventListener("click", turnOnDarkMode);
+
+function turnOnDarkMode() {
+  document.getElementById("css").href = "RPSDarkMode.css";
+}
+
 //variable creating an array for the game history
 var gameHistory = [];
 

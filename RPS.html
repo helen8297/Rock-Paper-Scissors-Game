@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="RPS.css" />
+    <link id="css" rel="stylesheet" type="text/css" href="RPSDarkMode.css" />
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <h1>Rock, Paper, Scissors</h1>
 
+    <button id="darkmode">Dark Mode</button>
+    <button id="lightmode">Light Mode</button>
+
       <div>
-    <label>What is your name?<input type="text" id="inputiD"></label>
+    <label id="whatisyournamelabel">What is your name? <input type="text" id="inputiD"></label>
     <button id="usernameButton">Set Username</button>
   
     </div>
@@ -17,8 +21,7 @@
     <p id="username-display" class="para">Unnamed</p>
 
     <img
-      src="https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png"
-    />
+      src="https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png"/>
 
     </br>
 
@@ -33,7 +36,7 @@
     
 
     <section id="gameHistory">
-      <p>Game moves:</p>
+      <p class="historysection">Game moves:</p>
       <ul id="history">
         Game History
       </ul>
