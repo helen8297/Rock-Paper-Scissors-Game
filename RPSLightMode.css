@@ -1,12 +1,28 @@
 body {
-  background-color: #ffabc0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #43c6ac; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f8ffae,
+    #43c6ac
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f8ffae,
+    #43c6ac
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Bangers", cursive;
+}
+
+h1 {
+  font-size: 5em;
+  color: #029c8a;
+  margin: 0;
 }
 
 #darkmode {
   position: absolute;
   left: 500px;
-  bottom: 617px;
+  bottom: 480px;
 }
 
 #lightmode {
@@ -14,6 +30,16 @@ body {
   left: 510px;
   bottom: 617px;
   display: none;
+}
+
+#whatisyournamelabel {
+  box-sizing: border-box;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 2px;
+  width: 20vw;
+  background-color: whitesmoke;
+  color: #015c51;
 }
 
 img {
@@ -27,10 +53,20 @@ button {
   font-size: 16px;
   box-sizing: border-box;
   padding: 10px;
-  background-color: #008cba;
-  color: white;
+  color: #015c51;
   margin: 10px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #00b09b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #96c93d,
+    #00b09b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #96c93d,
+    #00b09b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .para {
@@ -40,6 +76,7 @@ button {
   margin: 2px;
   width: 20vw;
   background-color: whitesmoke;
+  color: #015c51;
 }
 
 #gameHistory {
@@ -52,6 +89,7 @@ button {
   margin: 2px;
   width: 20vw;
   background-color: whitesmoke;
+  color: #015c51;
 }
 
 .historysection {
@@ -60,8 +98,8 @@ button {
 
 #channingtatum {
   position: absolute;
-  left: 270px;
-  bottom: 350px;
+  left: 400px;
+  bottom: 300px;
 }
 
 /*transform: translateX(-50%);*/
